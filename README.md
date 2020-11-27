@@ -22,7 +22,7 @@ Possible improvements:
 * Better test coverage (current project have a unit and integration tests for ProductController only)
 * Authentication/Authorization
 * Refactor db in a way which allow orders to have have multiple offers (it's 1:1 now)
-* Use full-text search on a text fields
+* Use full-text search on text fields
 * Actions audit (like orders modifications)
 * Implement HATEOAS - https://en.wikipedia.org/wiki/HATEOAS
 * Switch to GraphQL :-)
