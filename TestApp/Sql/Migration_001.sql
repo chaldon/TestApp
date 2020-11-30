@@ -34,6 +34,10 @@ ALTER TABLE dbo.[Order] ADD Cancelled bit NOT NULL DEFAULT 0;
 ALTER TABLE dbo.[Order] ADD Reason nvarchar(50); --Cancellation reason
 ALTER TABLE dbo.[Order] ADD Paid bit NOT NULL DEFAULT 0;
 
+-- Probably good to have too (or even audit table(s))
+--ALTER TABLE dbo.[Order] ADD DateCreated datetime NOT NULL DEFAULT (getdate());
+--ALTER TABLE dbo.[Order] ADD DateModified datetime NOT NULL DEFAULT (getdate());
+
 GO;
 
 
